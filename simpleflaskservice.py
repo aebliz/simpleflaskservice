@@ -21,7 +21,7 @@ from time import sleep
 from flask import Flask
 from flask import request
 from flask import jsonify
-
+printf("Hello World")
 # Set the version of the Flask Server
 VERSION = "0.1"
 if os.getenv("VERSION") is not None:
